@@ -17,4 +17,17 @@
 
 html {
   font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background-color: var(--white);
+}
+
+header {
+  background-color: var(--pale-greenish-white);
+}
+
+footer {
+  background-color: var(--black);
+}
+
+.main-section-container {
+  background-color: var(--pale-greenish-white);
 }

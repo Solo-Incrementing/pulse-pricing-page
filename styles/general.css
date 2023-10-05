@@ -19,6 +19,7 @@
 html {
   font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   background-color: var(--white);
+  line-height: 1.5;
 }
 
 header {

@@ -17,6 +17,7 @@ header {
 
 .logo-anchor {
   display: flex;
+  align-items: center;
   margin-right: 2.5rem;
   flex-shrink: 0;
 }
@@ -24,6 +25,7 @@ header {
 .nav-menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-grow: 0;
 }
 
@@ -35,4 +37,12 @@ header {
 
 .nav-menu__item:nth-child(-n + 4) {
   margin-right: 2.5rem;
+}
+
+.nav-menu__item:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem 1rem;
+  border: 2px solid var(--green);
 }

@@ -30,6 +30,10 @@ footer {
   background-color: var(--black);
 }
 
+.container {
+  max-width: 1200px;
+}
+
 .main-section-container {
   background-color: var(--pale-greenish-white);
 }

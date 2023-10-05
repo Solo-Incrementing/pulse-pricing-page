@@ -39,6 +39,10 @@ header {
   margin-right: 2.5rem;
 }
 
+.nav-menu__item:nth-child(-n + 4):hover {
+  color: var(--dark-green);
+}
+
 .nav-menu__item:last-child {
   display: flex;
   justify-content: center;

@@ -13,5 +13,12 @@ header {
 }
 
 .logo-anchor {
+  display: flex;
   margin-right: 2.5rem;
+  flex-shrink: 0;
+}
+
+.nav-menu {
+  display: flex;
+  flex-grow: 0;
 }

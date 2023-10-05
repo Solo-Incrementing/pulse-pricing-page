@@ -5,6 +5,10 @@
   margin-bottom: 2.5rem;
 }
 
+.intro-content-container {
+  text-align: center;
+}
+
 h1 {
   font-size: 60px;
   font-size: 3.75rem;

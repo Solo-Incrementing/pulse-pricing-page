@@ -50,3 +50,8 @@ header {
   padding: 0.25rem 1rem;
   border: 2px solid var(--green);
 }
+
+.nav-menu__item:last-child:hover {
+  transform: translate3d(5px, -5px, 0);
+  box-shadow: -5px 5px var(--green);
+}

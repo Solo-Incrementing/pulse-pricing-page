@@ -14,3 +14,7 @@
   --black: #080c16;
   --white: #fcfcfc;
 }
+
+html {
+  font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}

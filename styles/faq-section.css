@@ -32,3 +32,15 @@
 .faq-block__paragraph {
   font-size: 1.125rem;
 }
+
+@media (max-width: 1024px) {
+  .faq-container {
+    padding: 3rem 1.5rem 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .faq-block {
+    width: 100%;
+  }
+}

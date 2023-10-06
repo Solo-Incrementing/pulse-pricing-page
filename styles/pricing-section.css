@@ -149,3 +149,10 @@ h2 {
   background-image: url(https://pulseapp.com/img/icons/icon-check-bullet.svg);
   background-repeat: no-repeat;
 }
+
+/* Premium Plan Block */
+
+.premium-plan-block {
+  display: flex;
+  width: 33.3333%;
+}

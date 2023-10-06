@@ -166,3 +166,13 @@ h2 {
   color: var(--gray);
   background-color: var(--white);
 }
+
+.premium-plan-content-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 2rem 1.5rem 2rem;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}

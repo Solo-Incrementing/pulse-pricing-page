@@ -14,12 +14,14 @@
   --pale-greenish-white: #eafaf1;
   --black: #080c16;
   --white: #fcfcfc;
+  --gray: #464951;
 }
 
 html {
   font-family: Work Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
   background-color: var(--white);
   line-height: 1.5;
+  color: var(--gray);
 }
 
 header {

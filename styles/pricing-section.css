@@ -94,3 +94,13 @@ h2 {
   padding: 0 1rem;
   margin-top: 1rem;
 }
+
+.business-plan__price {
+  color: var(--light-gray);
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}

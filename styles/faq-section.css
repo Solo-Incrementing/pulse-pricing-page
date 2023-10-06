@@ -16,3 +16,8 @@
   flex-wrap: wrap;
   margin: 0 -1rem;
 }
+
+.faq-block {
+  width: 50%;
+  padding: 1.5rem 1rem;
+}

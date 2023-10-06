@@ -17,3 +17,10 @@
 .basics-plan-content-container {
   padding: 1.5rem;
 }
+
+h2 {
+  font-size: 1.25rem;
+  color: var(--green);
+  margin-bottom: 1rem;
+  line-height: 1.15;
+}

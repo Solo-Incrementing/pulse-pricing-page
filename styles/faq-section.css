@@ -1,3 +1,12 @@
 .faq-container {
   padding: 3rem 1.5rem 2rem 1.5rem;
 }
+
+.faq-heading {
+  color: var(--black);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -2px;
+  margin-bottom: 1rem;
+}

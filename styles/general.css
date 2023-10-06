@@ -42,4 +42,5 @@ footer {
 
 .main-section-container {
   background-color: var(--pale-greenish-white);
+  border-bottom: 1px solid var(--blue-gray);
 }

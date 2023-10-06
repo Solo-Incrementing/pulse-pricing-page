@@ -126,3 +126,10 @@ h2 {
   letter-spacing: 1px;
   line-height: 1.15;
 }
+
+.business-plan__list {
+  list-style: none;
+  letter-spacing: -0.5px;
+  text-align: left;
+  margin-bottom: 1rem;
+}

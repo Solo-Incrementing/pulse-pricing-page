@@ -176,3 +176,16 @@ h2 {
   overflow: hidden;
   height: 100%;
 }
+
+.premium-plan-block__banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1.25rem 2rem 1.5rem 2rem;
+  font-size: 0.875rem;
+  line-height: 1.3;
+  color: var(--gray);
+  background-color: var(--very-light-gray);
+  border-bottom: 1px solid var(--blue-gray);
+}

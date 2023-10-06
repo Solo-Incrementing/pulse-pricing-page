@@ -156,3 +156,13 @@ h2 {
   display: flex;
   width: 33.3333%;
 }
+
+.premium-plan-block__anchor {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid var(--blue-gray);
+  text-decoration: none;
+  color: var(--gray);
+  background-color: var(--white);
+}

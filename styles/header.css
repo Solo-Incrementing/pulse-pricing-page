@@ -1,5 +1,5 @@
 header {
-  border: 0 solid #d6dae5;
+  border: 0 solid var(--blue-gray);
 }
 
 .nav-bar-container {

@@ -133,3 +133,19 @@ h2 {
   text-align: left;
   margin-bottom: 1rem;
 }
+
+.business-plan__list>li {
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.business-plan__list>li::before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  top: 14px;
+  width: 12px;
+  height: 12px;
+  background-image: url(https://pulseapp.com/img/icons/icon-check-bullet.svg);
+  background-repeat: no-repeat;
+}

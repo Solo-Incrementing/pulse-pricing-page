@@ -6,6 +6,7 @@
 }
 
 .intro-content-container {
+  max-width: 600px;
   text-align: center;
 }
 
@@ -15,4 +16,8 @@ h1 {
   line-height: 1;
   margin-bottom: 1rem;
   letter-spacing: -2px;
+}
+
+.intro__paragraph {
+  font-size: 1.125rem;
 }

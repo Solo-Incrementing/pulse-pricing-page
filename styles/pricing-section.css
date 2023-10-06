@@ -7,3 +7,13 @@
   align-items: center;
   margin: 0 -1rem;
 }
+
+.basics-plan-block {
+  display: flex;
+  padding: 2rem;
+  width: 33.3333%;
+}
+
+.basics-plan-content-container {
+  padding: 1.5rem;
+}

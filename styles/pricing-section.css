@@ -1,0 +1,9 @@
+.pricing-section-container {
+  padding: 0 1.5rem;
+}
+
+.pricing-section-block-container {
+  display: flex;
+  align-items: center;
+  margin: 0 -1rem;
+}

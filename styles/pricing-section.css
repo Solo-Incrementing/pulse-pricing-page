@@ -199,7 +199,10 @@ h2 {
   color: var(--green);
 }
 
-.premium-plan__price {
+/* Common block stylings */
+
+/* Common above basics plan */
+.above-basics-plan__price {
   color: var(--light-gray);
   font-size: 1.5rem;
   letter-spacing: -0.5px;
@@ -209,11 +212,11 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
-.premium-plan-try-premium-container {
+.above-basics-plan-try-button-container {
   margin-top: auto;
 }
 
-.premium-plan__try-premium-button {
+.above-basics-plan__try-button {
   display: inline-block;
   color: var(--gray);
   background-color: var(--light-green);
@@ -223,4 +226,36 @@ h2 {
   margin-bottom: 2rem;
   transform: scale(1);
   transition: all .05s ease-in-out;
+}
+
+.above-basics-plan__list-title {
+  color: var(--gray);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.15;
+}
+
+.above-basics-plan__list {
+  list-style: none;
+  letter-spacing: -0.5px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.above-basics-plan__list>li {
+  position: relative;
+  padding: 0.5rem 0;
+}
+
+.above-basics-plan__list>li::before {
+  content: "";
+  position: absolute;
+  left: -14px;
+  top: 14px;
+  width: 12px;
+  height: 12px;
+  background-image: url(https://pulseapp.com/img/icons/icon-check-bullet.svg);
+  background-repeat: no-repeat;
 }

@@ -208,3 +208,19 @@ h2 {
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
 }
+
+.premium-plan-try-premium-container {
+  margin-top: auto;
+}
+
+.premium-plan__try-premium-button {
+  display: inline-block;
+  color: var(--gray);
+  background-color: var(--light-green);
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 0.5rem 2rem 0.75rem 2rem;
+  margin-bottom: 2rem;
+  transform: scale(1);
+  transition: all .05s ease-in-out;
+}

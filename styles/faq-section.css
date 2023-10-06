@@ -21,3 +21,10 @@
   width: 50%;
   padding: 1.5rem 1rem;
 }
+
+.faq-block__heading {
+  color: var(--black);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.15;
+}

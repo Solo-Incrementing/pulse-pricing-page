@@ -5,7 +5,6 @@ header {
 
 .nav-bar-container {
   padding: 3rem 1.5rem;
-  margin: 0 auto;
 }
 
 .nav-bar {
@@ -58,4 +57,45 @@ header {
 
 #nav-item__pricing {
   color: var(--dark-green);
+}
+
+.hamburger-menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.hamburger-menu-svg {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--green);
+}
+
+.hamburger-menu-svg:hover {
+  fill: var(--light-green);
+}
+
+@media (max-width: 768px) {
+
+  .nav-menu {
+    display: none;
+  }
+
+  header {
+    background-color: var(--white);
+    border: 1px solid var(--blue-gray);
+  }
+
+  .nav-bar-container {
+    padding: 1rem 1.5rem;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .hamburger-menu-container {
+    display: none;
+  }
 }

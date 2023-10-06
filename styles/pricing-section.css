@@ -30,3 +30,7 @@ h2 {
   margin-left: 1rem;
   margin-bottom: 1rem;
 }
+
+.basics-plan__anchor {
+  color: var(--black);
+}

@@ -54,3 +54,16 @@ h2 {
   text-decoration: none;
   color: var(--gray);
 }
+
+.business-plan-content-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  overflow: hidden;
+  height: 100%;
+}

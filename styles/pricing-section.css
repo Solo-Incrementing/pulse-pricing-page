@@ -43,3 +43,14 @@ h2 {
   display: flex;
   width: 33.3333%;
 }
+
+.business-plan-block__anchor {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--white);
+  border: 1px solid var(--green);
+  border-radius: 8px 8px 0 0;
+  text-decoration: none;
+  color: var(--gray);
+}

@@ -10,4 +10,5 @@
 
 .reviews__image {
   margin: 0 auto;
+  max-width: 100%;
 }

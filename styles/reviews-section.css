@@ -20,3 +20,11 @@
   font-size: 1.5rem;
   padding: 1rem 0;
 }
+
+.reviews__quote-author {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--green);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

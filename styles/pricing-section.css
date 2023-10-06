@@ -67,3 +67,20 @@ h2 {
   overflow: hidden;
   height: 100%;
 }
+
+.business-plan-block__banner {
+  position: absolute;
+  color: var(--white);
+  background-color: var(--green);
+  padding: 0.25rem 0;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: none;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+}

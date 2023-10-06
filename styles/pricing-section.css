@@ -117,3 +117,12 @@ h2 {
   transform: scale(1);
   transition: all .05s ease-in-out;
 }
+
+.business-plan__list-title {
+  color: var(--gray);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.15;
+}

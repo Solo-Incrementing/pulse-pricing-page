@@ -9,3 +9,8 @@ footer {
 .footer-main-content--vertical-padding {
   padding: 6rem 0;
 }
+
+.footer-main-content-container {
+  display: flex;
+  margin: 0 -1rem;
+}

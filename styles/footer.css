@@ -20,3 +20,17 @@ footer {
   text-align: left;
   padding: 0 1rem;
 }
+
+.footer-logo {
+  margin-bottom: 3rem;
+}
+
+.footer-logo__anchor {
+  display: inline-block;
+}
+
+.footer-logo__image {
+  width: 10rem;
+  max-width: 100%;
+  height: auto;
+}

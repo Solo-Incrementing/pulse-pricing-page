@@ -11,6 +11,7 @@
 }
 
 h1 {
+  color: var(--black);
   font-size: 60px;
   font-size: 3.75rem;
   line-height: 1;
@@ -19,5 +20,6 @@ h1 {
 }
 
 .intro__paragraph {
+  color: var(--black);
   font-size: 1.125rem;
 }

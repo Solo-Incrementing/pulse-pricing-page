@@ -13,7 +13,6 @@
 .basics-plan-block {
   display: flex;
   padding: 2rem;
-  width: 33.3333%;
 }
 
 .basics-plan-content-container {
@@ -41,7 +40,6 @@ h2 {
 
 .business-plan-block {
   display: flex;
-  width: 33.3333%;
 }
 
 .business-plan-block__anchor {
@@ -60,7 +58,6 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 3rem 2rem 1.5rem 2rem;
-  text-align: center;
   overflow: hidden;
   height: 100%;
 }
@@ -154,7 +151,6 @@ h2 {
 
 .premium-plan-block {
   display: flex;
-  width: 33.3333%;
 }
 
 .premium-plan-block__anchor {
@@ -172,7 +168,6 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 3rem 2rem 1.5rem 2rem;
-  text-align: center;
   overflow: hidden;
   height: 100%;
 }
@@ -195,7 +190,6 @@ h2 {
   font-size: 2.25rem;
   letter-spacing: -1.5px;
   line-height: 1;
-  text-align: center;
   color: var(--green);
 }
 
@@ -258,4 +252,136 @@ h2 {
   height: 12px;
   background-image: url(https://pulseapp.com/img/icons/icon-check-bullet.svg);
   background-repeat: no-repeat;
+}
+
+@media (min-width: 1025px) {
+  .plan-block {
+    width: 33.3333%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pricing-section-block-container {
+    flex-direction: column;
+  }
+
+  .plan-block {
+    width: 100%;
+  }
+
+  .basics-plan-block {
+    padding: 0;
+    margin: 0 0 2rem 0;
+  }
+
+  .basics-plan-content-container {
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+
+  .basics-plan__list {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .business-plan-content-container {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .business-plan-block__banner {
+    position: static;
+    padding: 0.5rem 0;
+  }
+
+  .business-plan-price-info {
+    padding: 1rem;
+  }
+
+  .business-plan__title {
+    display: inline-block;
+    font-size: 2.25rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .premium-plan-content-container {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .premium-plan-block__banner {
+    position: static;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .premium-plan-price-info {
+    padding: 1rem;
+  }
+
+  .premium-plan__title {
+    display: inline-block;
+    font-size: 2.25rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .plan-block__anchor {
+    text-align: left;
+    width: 100%;
+    margin: 0 1rem 2rem 1rem;
+  }
+
+  .above-basics-plan-try-button-container {
+    display: none;
+  }
+
+  .above-basics-plan__price {
+    display: inline-block;
+    margin: 0.5rem 0;
+  }
+
+  .above-basics-plan__list-title {
+    margin-top: 2rem;
+  }
+
+  .above-basics-plan__list {
+    padding: 0 2rem 1rem 2rem;
+    margin: 0;
+  }
+
+  .above-basics-plan__list>li {
+    line-height: 1.15;
+  }
+
+  .above-basics-plan-try-button-container {
+    margin-top: auto;
+  }
+
+  .above-basics-plan__try-button {
+    color: var(--gray);
+    background-color: var(--light-green);
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.5rem 2rem 0.75rem 2rem;
+    margin-bottom: 2rem;
+    transition: all .05s ease-in-out;
+  }
+
+  .above-basics-plan-mobile-try-button-container {
+    padding: 1rem;
+  }
+
+  .above-basics-plan-mobile__try-button {
+    color: var(--gray);
+    background-color: var(--light-green);
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5rem 2rem 0.75rem 2rem;
+    transition: all .05s ease-in-out;
+  }
 }

@@ -34,3 +34,16 @@ footer {
   max-width: 100%;
   height: auto;
 }
+
+.footer-sign-up__anchor {
+  position: relative;
+  display: inline-block;
+  background-image: linear-gradient(90deg, var(--green), var(--light-green));
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--dark-green);
+  text-align: center;
+  cursor: pointer;
+}

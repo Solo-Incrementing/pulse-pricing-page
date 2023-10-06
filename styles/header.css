@@ -55,3 +55,7 @@ header {
   transform: translate3d(5px, -5px, 0);
   box-shadow: -5px 5px var(--green);
 }
+
+#nav-item__pricing {
+  color: var(--dark-green);
+}

@@ -27,14 +27,6 @@ html {
   color: var(--gray);
 }
 
-header {
-  background-color: var(--pale-greenish-white);
-}
-
-footer {
-  background-color: var(--black);
-}
-
 .container {
   margin: 0 auto;
   max-width: 1200px;

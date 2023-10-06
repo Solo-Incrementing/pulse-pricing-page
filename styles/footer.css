@@ -1,3 +1,7 @@
 footer {
   background-color: var(--black);
 }
+
+.footer-main-container {
+  padding: 0 1.5rem;
+}

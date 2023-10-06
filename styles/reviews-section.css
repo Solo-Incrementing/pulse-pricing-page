@@ -7,3 +7,7 @@
 .reviews-content-container {
   text-align: center;
 }
+
+.reviews__image {
+  margin: 0 auto;
+}

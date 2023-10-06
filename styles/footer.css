@@ -14,3 +14,9 @@ footer {
   display: flex;
   margin: 0 -1rem;
 }
+
+.footer-sign-up-container {
+  width: 50%;
+  text-align: left;
+  padding: 0 1rem;
+}

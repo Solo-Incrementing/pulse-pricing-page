@@ -8,6 +8,8 @@
   margin: 0 -1rem;
 }
 
+/* Basics Plan Block  */
+
 .basics-plan-block {
   display: flex;
   padding: 2rem;
@@ -33,4 +35,11 @@ h2 {
 
 .basics-plan__anchor {
   color: var(--black);
+}
+
+/* Business Plan Block */
+
+.business-plan-block {
+  display: flex;
+  width: 33.3333%;
 }

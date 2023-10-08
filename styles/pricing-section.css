@@ -222,6 +222,11 @@ h2 {
   transition: all .05s ease-in-out;
 }
 
+.plan-block__anchor:hover .above-basics-plan__try-button {
+  color: var(--dark-green);
+  transform: scale(1.1);
+}
+
 .above-basics-plan__list-title {
   color: var(--gray);
   font-size: 0.75rem;

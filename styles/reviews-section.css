@@ -28,3 +28,9 @@
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+@media (max-width: 1024px) {
+  .reviews-container {
+    padding: 3rem 1.5rem;
+  }
+}

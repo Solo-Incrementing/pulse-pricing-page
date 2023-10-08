@@ -50,6 +50,12 @@ footer {
   cursor: pointer;
 }
 
+.footer-sign-up__anchor:hover {
+  color: var(--dark-green);
+  transform: translate3d(5px, -5px, 0);
+  box-shadow: -5px 5px var(--gray);
+}
+
 /* Sitemap Area */
 
 .footer-sitemap {
@@ -78,6 +84,10 @@ footer {
   text-decoration: none;
 }
 
+.sitemap-list-item__anchor:hover {
+  color: var(--white);
+}
+
 /* Terms Area */
 
 .footer-terms-container {
@@ -91,6 +101,10 @@ footer {
 
 .footer-terms__anchor {
   color: var(--light-gray);
+}
+
+.footer-terms__anchor:hover {
+  color: var(--very-light-gray);
 }
 
 @media (max-width: 1024px) {

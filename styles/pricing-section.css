@@ -258,6 +258,10 @@ h2 {
   .plan-block {
     width: 33.3333%;
   }
+
+  .above-basics-plan-mobile-try-button-container {
+    display: none;
+  }
 }
 
 @media (max-width: 1024px) {

@@ -393,4 +393,8 @@ h2 {
     padding: 0.5rem 2rem 0.75rem 2rem;
     transition: all .05s ease-in-out;
   }
+
+  .plan-block__anchor:hover .above-basics-plan-mobile__try-button {
+    color: var(--dark-green);
+  }
 }
